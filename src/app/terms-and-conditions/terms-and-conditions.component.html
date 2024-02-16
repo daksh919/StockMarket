@@ -1,0 +1,9 @@
+<div class="modal-content">
+  <div class="conditions-list">
+    <h2 class="modal-title">Terms and Conditions</h2>
+    <ul>
+      <li *ngFor="let condition of conditionList">{{ condition }}</li>
+    </ul>
+  </div>
+  <button mat-raised-button color="primary" class="submit-button" (click)="submit()">Agree and Submit</button>
+</div>

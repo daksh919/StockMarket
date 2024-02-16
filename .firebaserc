@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-testing-f4910": {
+      "hosting": {
+        "my-stock-app": [
+          "login-testing-f4910"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-testing-f4910"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "my-stock-app",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      }
+    }
+  ]
+}
